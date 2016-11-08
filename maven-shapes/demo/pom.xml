@@ -11,8 +11,16 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>shapes_core</artifactId>
+    <artifactId>shapes_demo</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>ru.academit.ilnitsky</groupId>
+            <artifactId>shapes_shapes</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -10,17 +10,23 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <modules>
         <module>core</module>
         <module>shapes</module>
+        <module>demo</module>
     </modules>
-
-    <dependencies>
-        <dependency>
-            <groupId>ru.academit.ilnitsky</groupId>
-            <artifactId>shapes_shapes</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-    </dependencies>
 
 </project>

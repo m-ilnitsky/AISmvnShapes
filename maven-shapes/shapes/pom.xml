@@ -5,7 +5,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.academit.ilnitsky</groupId>
+    <parent>
+        <groupId>ru.academit.ilnitsky</groupId>
+        <artifactId>maven-shapes</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <artifactId>shapes_shapes</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>

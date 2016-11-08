@@ -1,4 +1,4 @@
-package ru.academit.ilnitsky.shapes;
+package ru.academit.ilnitsky.shapes_demo;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -3,9 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AISmvnShapes.iml" filepath="$PROJECT_DIR$/.idea/AISmvnShapes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/maven-shapes/core/core.iml" filepath="$PROJECT_DIR$/maven-shapes/core/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/maven-shapes/maven-shapes.iml" filepath="$PROJECT_DIR$/maven-shapes/maven-shapes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/maven-shapes/shapes/shapes.iml" filepath="$PROJECT_DIR$/maven-shapes/shapes/shapes.iml" />
     </modules>
   </component>
 </project>
