@@ -6,7 +6,6 @@ package ru.academit.ilnitsky.shapes_core;
  */
 public class HashCode {
     public static int hashCode(double value) {
-        /*
         int shift = 1000;
         int exponent = Math.getExponent(value);
         int mantissa = (int) (value / Math.pow(2, exponent) * shift);
@@ -15,11 +14,5 @@ public class HashCode {
         result += (1024 + exponent) * shift;
         result += 3 * shift + mantissa;
         return result;
-        */
-
-        // Почему-то не знает функцию  Math.getExponent()
-        // хотя для проекта была выбрана версия java 1.8
-
-        return (int)value;
     }
 }

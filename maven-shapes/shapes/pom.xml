@@ -8,7 +8,7 @@
     <groupId>ru.academit.ilnitsky</groupId>
     <artifactId>shapes_shapes</artifactId>
     <version>1.0.0</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
